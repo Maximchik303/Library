@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borrow Books</title>
+    <script src="borrow.js" defer></script>
+</head>
+<body>
+    <h1>Borrow Books</h1>
+    <button onclick="location.href='borrower.html'">See who is borrowing</button>
+    <button onclick="location.href='index.html'">Go to Book Page</button>
+    <button onclick="location.href='people.html'">Go to People Page</button>
+    <!-- <h2>Available Books</h2>         doesnt work for some reason
+    <ul id="book-list"></ul> -->
+    <h2>Borrowed Books</h2>
+    <ul id="borrowed-list"></ul>
+    <form id="borrow-form">
+        <input type="text" id="person-name" placeholder="Your Name" required>
+        <select id="borrow-book">
+            <option value="">Select a Book to Borrow</option>
+        </select>
+        <button type="submit">Borrow Book</button>
+    </form>
+</body>
+</html>

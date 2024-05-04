@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Management</title>
+    <script src="book.js" defer></script>
+</head>
+<body>
+    <h1>Book Management</h1>
+    <button onclick="location.href='borrower.html'">See who is borrowing</button>
+    <button onclick="location.href='people.html'">Go to People Page</button>
+    <button onclick="location.href='borrow.html'">Borrow a Book</button>
+    <h2>Books</h2>
+    <ul id="book-list"></ul>
+    <form id="book-form">
+        <input type="text" id="book-title" placeholder="Enter Book Title" required>
+        <input type="text" id="book-author" placeholder="Enter Author Name" required>
+        <button type="submit">Add Book</button>
+    </form>
+</body>
+</html>

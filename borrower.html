@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borrower Information</title>
+    <script src="borrower.js" defer></script>
+</head>
+<body>
+    <h1>Borrower Information</h1>
+    <button onclick="location.href='index.html'">Go to Book Page</button>
+    <button onclick="location.href='people.html'">Go to People Page</button>
+    <button onclick="location.href='borrow.html'">Go to Borrow Page</button>
+    <h2>Check Borrower's Books</h2>
+    <form id="borrower-form">
+        <input type="text" id="borrower-name" placeholder="Enter Borrower's Name" required>
+        <button type="submit">Check Books</button>
+    </form>
+    <div id="borrowed-books"></div>
+</body>
+</html>
